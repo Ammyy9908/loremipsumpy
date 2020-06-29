@@ -9,7 +9,7 @@ pip install loremipsumpy
 
 ## Usage
 
-from lorem import Lorem
+from loremipsumpy import Lorem
 
 lorem = Lorem()
 data = lorem.get_lorem_default(count=1)
