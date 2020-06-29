@@ -9,14 +9,14 @@ pip install loremipsumpy
 
 ## Usage
 
-from loremipsumpy import Lorem
+from loremipsumpy import Lorem<br/>
 
-lorem = Lorem()
-data = lorem.get_lorem_default(count=1)
-print(data)
-data = lorem.get_lorem_large(count=1)
-print(data)
-data = lorem.get_xlarge(count=1)
-print(data)
-data = lorem.get_xxlarge(count=1)
+lorem = Lorem()<br/>
+data = lorem.get_lorem_default(count=1)<br/>
+print(data)<br/>
+data = lorem.get_lorem_large(count=1)<br/>
+print(data)<br/>
+data = lorem.get_xlarge(count=1)<br/>
+print(data)<br/>
+data = lorem.get_xxlarge(count=1)<br/>
 print(data)
